@@ -1,0 +1,14 @@
+{
+  "appName": "Prime Core",
+  "welcome": "Welcome to Prime Core",
+  "login": "Login",
+  "logout": "Logout",
+  "phone": "Phone Number",
+  "enterPhone": "Enter your phone number",
+  "password": "Password",
+  "enterPassword": "Enter your password",
+  "home": "Home",
+  "settings": "Settings",
+  "profile": "Profile",
+  "language": "Language"
+}
