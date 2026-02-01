@@ -29,3 +29,14 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+  fonts:
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend/Lexend-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Lexend/Lexend-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Lexend/Lexend-Bold.ttf
+          weight: 700
