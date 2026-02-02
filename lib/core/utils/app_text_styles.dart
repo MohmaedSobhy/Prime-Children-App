@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:prime_app/core/widgets/responsive_text.dart';
 
 class AppTextStyles {
-  static TextStyle lexendBold40({required BuildContext context}) {
+  static TextStyle lexendBold40({
+    required BuildContext context,
+    double fontSize = 40,
+  }) {
     return TextStyle(
       fontFamily: 'Lexend',
       fontWeight: FontWeight.w700,
-      fontSize: ResponsiveText.sp(context, 40),
+      fontSize: ResponsiveText.sp(context, fontSize),
       color: Colors.white,
     );
   }
@@ -20,11 +23,14 @@ class AppTextStyles {
     );
   }
 
-  static TextStyle lexendRegular12({required BuildContext context}) {
+  static TextStyle lexendRegular12({
+    required BuildContext context,
+    double fontSize = 12,
+  }) {
     return TextStyle(
       fontFamily: 'Lexend',
       fontWeight: FontWeight.w400,
-      fontSize: ResponsiveText.sp(context, 12),
+      fontSize: ResponsiveText.sp(context, fontSize),
       color: Colors.white60,
     );
   }

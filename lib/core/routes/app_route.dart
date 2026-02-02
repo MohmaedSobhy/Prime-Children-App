@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prime_app/Feature/Auth/presentation/screens/login_screen.dart';
-import 'package:prime_app/Feature/onBoarding/presentation/screens/onBoardingView.dart';
+import 'package:prime_app/Feature/onBoarding/presentation/screens/on_boarding_view.dart';
 import 'package:prime_app/Feature/splash/presentation/view/splash_view.dart';
 
 abstract class AppRoute {
