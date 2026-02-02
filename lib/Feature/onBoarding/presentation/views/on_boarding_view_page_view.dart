@@ -14,6 +14,7 @@ class OnBoardingViewPageView extends StatelessWidget {
       ),
       controller: OnBoardingCubit.get(context).pageController,
       itemCount: AppConstants.onBoardingItems.length,
+      physics: const NeverScrollableScrollPhysics(),
     );
   }
 }
