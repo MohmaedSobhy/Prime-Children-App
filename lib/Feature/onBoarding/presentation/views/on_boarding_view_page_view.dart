@@ -8,12 +8,12 @@ class OnBoardingViewPageView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final items = AppConstants.onBoardingItems(context);
     return PageView.builder(
-      itemBuilder: (context, index) => OnBoardingPageViewWidget(
-        onBoardingViewModel: AppConstants.onBoardingItems[index],
-      ),
+      itemBuilder: (context, index) =>
+          OnBoardingPageViewWidget(onBoardingViewModel: items[index]),
       controller: OnBoardingCubit.get(context).pageController,
-      itemCount: AppConstants.onBoardingItems.length,
+      itemCount: items.length,
       physics: const NeverScrollableScrollPhysics(),
     );
   }

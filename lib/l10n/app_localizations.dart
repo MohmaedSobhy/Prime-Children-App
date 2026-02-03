@@ -98,77 +98,125 @@ abstract class AppLocalizations {
     Locale('en'),
   ];
 
-  /// No description provided for @appName.
+  /// No description provided for @serverFailureDefault.
   ///
   /// In en, this message translates to:
-  /// **'Prime Core'**
-  String get appName;
+  /// **'An unexpected error occurred.'**
+  String get serverFailureDefault;
 
-  /// No description provided for @welcome.
+  /// No description provided for @serverFailureTimeout.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Prime Core'**
-  String get welcome;
+  /// **'Connection timed out.'**
+  String get serverFailureTimeout;
 
-  /// No description provided for @login.
+  /// No description provided for @serverFailureSendTimeout.
   ///
   /// In en, this message translates to:
-  /// **'Login'**
-  String get login;
+  /// **'Send timeout.'**
+  String get serverFailureSendTimeout;
 
-  /// No description provided for @logout.
+  /// No description provided for @serverFailureReceiveTimeout.
   ///
   /// In en, this message translates to:
-  /// **'Logout'**
-  String get logout;
+  /// **'Receive timeout.'**
+  String get serverFailureReceiveTimeout;
 
-  /// No description provided for @phone.
+  /// No description provided for @serverFailureCancel.
   ///
   /// In en, this message translates to:
-  /// **'Phone Number'**
-  String get phone;
+  /// **'Request cancelled.'**
+  String get serverFailureCancel;
 
-  /// No description provided for @enterPhone.
+  /// No description provided for @serverFailureNoInternet.
   ///
   /// In en, this message translates to:
-  /// **'Enter your phone number'**
-  String get enterPhone;
+  /// **'No internet connection.'**
+  String get serverFailureNoInternet;
 
-  /// No description provided for @password.
+  /// No description provided for @serverFailureInternalServer.
   ///
   /// In en, this message translates to:
-  /// **'Password'**
-  String get password;
+  /// **'Internal server error.'**
+  String get serverFailureInternalServer;
 
-  /// No description provided for @enterPassword.
+  /// No description provided for @serverFailureBadGateway.
   ///
   /// In en, this message translates to:
-  /// **'Enter your password'**
-  String get enterPassword;
+  /// **'Bad gateway.'**
+  String get serverFailureBadGateway;
 
-  /// No description provided for @home.
+  /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Home'**
-  String get home;
+  /// **'Prime Children App'**
+  String get appTitle;
 
-  /// No description provided for @settings.
+  /// No description provided for @splashTitle.
   ///
   /// In en, this message translates to:
-  /// **'Settings'**
-  String get settings;
+  /// **'Prime'**
+  String get splashTitle;
 
-  /// No description provided for @profile.
+  /// No description provided for @splashSubTitle.
   ///
   /// In en, this message translates to:
-  /// **'Profile'**
-  String get profile;
+  /// **'Smart Care'**
+  String get splashSubTitle;
 
-  /// No description provided for @language.
+  /// No description provided for @version.
   ///
   /// In en, this message translates to:
-  /// **'Language'**
-  String get language;
+  /// **'V1.0.0'**
+  String get version;
+
+  /// No description provided for @onBoardingTitle1.
+  ///
+  /// In en, this message translates to:
+  /// **'Empower Your Nursery'**
+  String get onBoardingTitle1;
+
+  /// No description provided for @onBoardingSubTitle1.
+  ///
+  /// In en, this message translates to:
+  /// **'Streamline management and enhance child development with our professional tools.'**
+  String get onBoardingSubTitle1;
+
+  /// No description provided for @onBoardingTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Build Lasting Trust'**
+  String get onBoardingTitle2;
+
+  /// No description provided for @onBoardingSubTitle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep parents connected with real-time updates on meals, naps, and activities.'**
+  String get onBoardingSubTitle2;
+
+  /// No description provided for @onBoardingTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Care for your child Anywhere'**
+  String get onBoardingTitle3;
+
+  /// No description provided for @onBoardingSubTitle3.
+  ///
+  /// In en, this message translates to:
+  /// **'A premium platform designed for the modern educational environment.'**
+  String get onBoardingSubTitle3;
+
+  /// No description provided for @next.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get next;
+
+  /// No description provided for @getStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Started'**
+  String get getStarted;
 }
 
 class _AppLocalizationsDelegate

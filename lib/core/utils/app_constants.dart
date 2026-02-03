@@ -1,23 +1,28 @@
+import 'package:flutter/material.dart';
 import 'package:prime_app/Feature/onBoarding/data/models/on_boarding_view_model.dart';
 import 'package:prime_app/core/utils/app_images.dart';
 import 'package:prime_app/core/utils/app_strings.dart';
 
 class AppConstants {
-  static final List<OnBoardingViewModel> onBoardingItems = [
-    OnBoardingViewModel(
-      imagePath: AppImages.onBoardingImage1,
-      title: AppString.onBoardingTitle1,
-      description: AppString.onBoardingSubTitle1,
-    ),
-    OnBoardingViewModel(
-      imagePath: AppImages.onBoardingImage2,
-      title: AppString.onBoardingTitle2,
-      description: AppString.onBoardingSubTitle2,
-    ),
-    OnBoardingViewModel(
-      imagePath: AppImages.onBoardingImage3,
-      title: AppString.onBoardingTitle3,
-      description: AppString.onBoardingSubTitle3,
-    ),
-  ];
+  static List<OnBoardingViewModel> onBoardingItems(BuildContext context) {
+    final strings = AppString.of(context);
+
+    return [
+      OnBoardingViewModel(
+        imagePath: AppImages.onBoardingImage1,
+        title: strings.onBoardingTitle1,
+        description: strings.onBoardingSubTitle1,
+      ),
+      OnBoardingViewModel(
+        imagePath: AppImages.onBoardingImage2,
+        title: strings.onBoardingTitle2,
+        description: strings.onBoardingSubTitle2,
+      ),
+      OnBoardingViewModel(
+        imagePath: AppImages.onBoardingImage3,
+        title: strings.onBoardingTitle3,
+        description: strings.onBoardingSubTitle3,
+      ),
+    ];
+  }
 }

@@ -13,6 +13,7 @@ class OnBoardingViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final items = AppConstants.onBoardingItems(context);
     return Padding(
       padding: EdgeInsets.symmetric(
         horizontal: MediaQuery.sizeOf(context).width * 0.05,
@@ -27,20 +28,16 @@ class OnBoardingViewBody extends StatelessWidget {
                 children: [
                   CustomSmoothPageIndicatorWidget(
                     pageController: cubit.pageController,
-                    length: AppConstants.onBoardingItems.length,
+                    length: items.length,
                   ),
                   SizedBox(height: MediaQuery.sizeOf(context).height * 0.03),
                   CustomButtonWidget(
-                    text:
-                        cubit.currentIndex ==
-                            AppConstants.onBoardingItems.length - 1
-                        ? AppString.getStarted
-                        : AppString.next,
+                    text: cubit.currentIndex == items.length - 1
+                        ? AppString.of(context).getStarted
+                        : AppString.of(context).next,
                     height: MediaQuery.sizeOf(context).height * 0.06,
                     width: MediaQuery.sizeOf(context).width * 0.95,
-                    onPressed: () =>
-                        cubit.currentIndex ==
-                            AppConstants.onBoardingItems.length - 1
+                    onPressed: () => cubit.currentIndex == items.length - 1
                         ? cubit.navigateToLogin(context)
                         : cubit.changePage(),
                   ),

@@ -8,15 +8,15 @@ class SplashViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
         Expanded(
           child: SplashTitleAndSubtitle(
-            title: AppString.splashTitle,
-            subtitle: AppString.splashSubTitle,
+            title: AppString.of(context).splashTitle,
+            subtitle: AppString.of(context).splashSubTitle,
           ),
         ),
-        SplashVersionWidget(text: AppString.version),
+        SplashVersionWidget(text: AppString.of(context).version),
       ],
     );
   }

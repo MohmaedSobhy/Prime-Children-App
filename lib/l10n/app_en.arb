@@ -1,14 +1,26 @@
 {
-  "appName": "Prime Core",
-  "welcome": "Welcome to Prime Core",
-  "login": "Login",
-  "logout": "Logout",
-  "phone": "Phone Number",
-  "enterPhone": "Enter your phone number",
-  "password": "Password",
-  "enterPassword": "Enter your password",
-  "home": "Home",
-  "settings": "Settings",
-  "profile": "Profile",
-  "language": "Language"
+  "serverFailureDefault": "An unexpected error occurred.",
+  "serverFailureTimeout": "Connection timed out.",
+  "serverFailureSendTimeout": "Send timeout.",
+  "serverFailureReceiveTimeout": "Receive timeout.",
+  "serverFailureCancel": "Request cancelled.",
+  "serverFailureNoInternet": "No internet connection.",
+  "serverFailureInternalServer": "Internal server error.",
+  "serverFailureBadGateway": "Bad gateway.",
+
+  "appTitle": "Prime Children App",
+
+  "splashTitle": "Prime",
+  "splashSubTitle": "Smart Care",
+  "version": "V1.0.0",
+
+  "onBoardingTitle1": "Empower Your Nursery",
+  "onBoardingSubTitle1": "Streamline management and enhance child development with our professional tools.",
+  "onBoardingTitle2": "Build Lasting Trust",
+  "onBoardingSubTitle2": "Keep parents connected with real-time updates on meals, naps, and activities.",
+  "onBoardingTitle3": "Care for your child Anywhere",
+  "onBoardingSubTitle3": "A premium platform designed for the modern educational environment.",
+
+  "next": "Next",
+  "getStarted": "Get Started"
 }

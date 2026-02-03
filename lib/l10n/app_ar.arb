@@ -1,14 +1,26 @@
 {
-  "appName": "برايم كور",
-  "welcome": "مرحبًا بك في برايم كور",
-  "login": "تسجيل الدخول",
-  "logout": "تسجيل الخروج",
-  "phone": "رقم الهاتف",
-  "enterPhone": "أدخل رقم الهاتف",
-  "password": "كلمة المرور",
-  "enterPassword": "أدخل كلمة المرور",
-  "home": "الرئيسية",
-  "settings": "الإعدادات",
-  "profile": "الملف الشخصي",
-  "language": "اللغة"
+  "serverFailureDefault": "حدث خطأ غير متوقع.",
+  "serverFailureTimeout": "انتهت مهلة الاتصال.",
+  "serverFailureSendTimeout": "انتهت مهلة الإرسال.",
+  "serverFailureReceiveTimeout": "انتهت مهلة الاستقبال.",
+  "serverFailureCancel": "تم إلغاء الطلب.",
+  "serverFailureNoInternet": "لا يوجد اتصال بالإنترنت.",
+  "serverFailureInternalServer": "خطأ في الخادم الداخلي.",
+  "serverFailureBadGateway": "بوابة غير صالحة.",
+
+  "appTitle": "تطبيق برايم للأطفال",
+
+  "splashTitle": "برايم",
+  "splashSubTitle": "رعاية ذكية",
+  "version": "V1.0.0",
+
+  "onBoardingTitle1": "طوّر حضانتك",
+  "onBoardingSubTitle1": "نظّم الإدارة وحسّن نمو الأطفال باستخدام أدوات احترافية.",
+  "onBoardingTitle2": "ابنِ ثقة مستمرة",
+  "onBoardingSubTitle2": "ابقِ أولياء الأمور على اطلاع دائم بالوجبات والنوم والأنشطة.",
+  "onBoardingTitle3": "اعتنِ بطفلك من أي مكان",
+  "onBoardingSubTitle3": "منصة مميزة مصممة للبيئة التعليمية الحديثة.",
+
+  "next": "التالي",
+  "getStarted": "ابدأ"
 }

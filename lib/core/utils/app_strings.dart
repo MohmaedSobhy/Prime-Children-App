@@ -1,34 +1,42 @@
-abstract class AppString {
-  static const String serverFailureDefault = 'An unexpected error occurred.';
-  static const String serverFailureTimeout = 'Connection timed out.';
-  static const String serverFailureSendTimeout = 'Send timeout.';
-  static const String serverFailureReceiveTimeout = 'Receive timeout.';
-  static const String serverFailureCancel = 'Request cancelled.';
-  static const String serverFailureNoInternet = 'No internet connection.';
-  static const String serverFailureInternalServer = 'Internal server error.';
-  static const String serverFailureBadGateway = 'Bad gateway.';
-  static const String appTitle = "Prime Children App";
-  // static const String enterPhoneNumber = 'Enter your phone number';
-  // static const String phoneNumberErrorMessage =
-  //     'Phone number must be exactly 11 digits';
-  // static const String enterPassword = 'Enter your password';
-  // static const String login = 'Login';
+import 'package:flutter/widgets.dart';
+import 'package:prime_app/l10n/app_localizations.dart';
 
-  //splash screen
-  static const String splashTitle = 'Prime';
-  static const String splashSubTitle = 'Premium Nursery Mangement';
-  static const String version = 'V1.0.0';
+class AppString {
+  final AppLocalizations _l10n;
 
-  //onboarding screen
-  static const String onBoardingTitle1 = 'Empower Your Nursery';
-  static const String onBoardingSubTitle1 =
-      'Streamline management and enhance child development with our professional tools.';
-  static const String onBoardingTitle2 = 'Build Lasting Trust';
-  static const String onBoardingSubTitle2 =
-      'Keep parents connected with real-time updates on meals, naps, and activities.';
-  static const String onBoardingTitle3 = 'Care for your child Anywhere';
-  static const String onBoardingSubTitle3 =
-      'A premium platform designed for the modern educational environment.';
-  static const String next = 'Next';
-  static const String getStarted = 'Get Started';
+  AppString(this._l10n);
+
+  static AppString of(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    assert(
+      l10n != null,
+      'AppLocalizations is null. Did you forget MaterialApp localization setup?',
+    );
+    return AppString(AppLocalizations.of(context)!);
+  }
+
+  String get serverFailureDefault => _l10n.serverFailureDefault;
+  String get serverFailureTimeout => _l10n.serverFailureTimeout;
+  String get serverFailureSendTimeout => _l10n.serverFailureSendTimeout;
+  String get serverFailureReceiveTimeout => _l10n.serverFailureReceiveTimeout;
+  String get serverFailureCancel => _l10n.serverFailureCancel;
+  String get serverFailureNoInternet => _l10n.serverFailureNoInternet;
+  String get serverFailureInternalServer => _l10n.serverFailureInternalServer;
+  String get serverFailureBadGateway => _l10n.serverFailureBadGateway;
+
+  String get appTitle => _l10n.appTitle;
+
+  String get splashTitle => _l10n.splashTitle;
+  String get splashSubTitle => _l10n.splashSubTitle;
+  String get version => _l10n.version;
+
+  String get onBoardingTitle1 => _l10n.onBoardingTitle1;
+  String get onBoardingSubTitle1 => _l10n.onBoardingSubTitle1;
+  String get onBoardingTitle2 => _l10n.onBoardingTitle2;
+  String get onBoardingSubTitle2 => _l10n.onBoardingSubTitle2;
+  String get onBoardingTitle3 => _l10n.onBoardingTitle3;
+  String get onBoardingSubTitle3 => _l10n.onBoardingSubTitle3;
+
+  String get next => _l10n.next;
+  String get getStarted => _l10n.getStarted;
 }
