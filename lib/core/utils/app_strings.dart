@@ -40,14 +40,14 @@ class AppString {
   String get next => _l10n.next;
   String get getStarted => _l10n.getStarted;
   //login screen
-  String loginSubtitle = 'Care for your child. Anywhere.';
-  String phoneNumberTextFieldTitle = 'Phone Number';
-  String phonenumberTextFieldHint = '+20 10 0000 0000';
-  String passwordTextFieldTitle = 'Password';
-  String passwordTextFieldHint = 'Enter Your Password';
-  String loginButtonTitle = 'Login';
-  String dontHaveAccount = 'Don\'t have an account?';
-  String contactYourNursery = 'Contact Your Nursery';
-  String termsOfService = 'Terms of Service';
-  String privacyPolicy = 'Privacy Policy';
+  String get loginSubtitle => _l10n.loginSubtitle;
+  String get phoneNumberTextFieldTitle => _l10n.phoneNumberTextFieldTitle;
+  String get phonenumberTextFieldHint => _l10n.phonenumberTextFieldHint;
+  String get passwordTextFieldTitle => _l10n.passwordTextFieldTitle;
+  String get passwordTextFieldHint => _l10n.passwordTextFieldHint;
+  String get loginButtonTitle => _l10n.loginButtonTitle;
+  String get dontHaveAccount => _l10n.dontHaveAccount;
+  String get contactYourNursery => _l10n.contactYourNursery;
+  String get termsOfService => _l10n.termsOfService;
+  String get privacyPolicy => _l10n.privacyPolicy;
 }

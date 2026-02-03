@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:prime_app/Feature/Auth/presentation/controller/login_cubit.dart';
 import 'package:prime_app/Feature/Auth/presentation/widgets/login_body_view.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -6,9 +8,12 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       resizeToAvoidBottomInset: true,
-      body: SafeArea(child: LoginBodyView()),
+      body: BlocProvider(
+        create: (context) => LoginCubit(),
+        child: const SafeArea(child: LoginBodyView()),
+      ),
     );
   }
 }

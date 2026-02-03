@@ -10,12 +10,20 @@ class CustomTextFormField extends StatelessWidget {
     this.suffixIcon,
     this.controller,
     this.contentPadding,
+    this.formKey,
+    this.validator,
+    this.obscureText,
+    this.keyboardType,
   });
   final String title;
   final String? hintText;
   final Widget? suffixIcon;
   final TextEditingController? controller;
+  final Key? formKey;
   final EdgeInsetsGeometry? contentPadding;
+  final String? Function(String?)? validator;
+  final bool? obscureText;
+  final TextInputType? keyboardType;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -30,7 +38,10 @@ class CustomTextFormField extends StatelessWidget {
         ),
         SizedBox(height: MediaQuery.sizeOf(context).height * 0.01),
         TextFormField(
+          keyboardType: keyboardType,
+          key: formKey,
           controller: controller,
+          obscureText: obscureText ?? false,
           decoration: InputDecoration(
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(15),
@@ -50,6 +61,7 @@ class CustomTextFormField extends StatelessWidget {
               fontSize: 16,
             ).copyWith(color: AppColors.textFieldHintTextColor),
             suffixIcon: suffixIcon,
+
             contentPadding:
                 contentPadding ??
                 EdgeInsets.symmetric(
@@ -57,6 +69,7 @@ class CustomTextFormField extends StatelessWidget {
                   vertical: MediaQuery.sizeOf(context).height * 0.02,
                 ),
           ),
+          validator: validator,
         ),
       ],
     );

@@ -70,4 +70,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get getStarted => 'Get Started';
+
+  @override
+  String get loginSubtitle => 'Care for your child. Anywhere.';
+
+  @override
+  String get phoneNumberTextFieldTitle => 'Phone Number';
+
+  @override
+  String get phonenumberTextFieldHint => '+20 10 0000 0000';
+
+  @override
+  String get passwordTextFieldTitle => 'Password';
+
+  @override
+  String get passwordTextFieldHint => 'Enter Your Password';
+
+  @override
+  String get loginButtonTitle => 'Login';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have an account?';
+
+  @override
+  String get contactYourNursery => 'Contact Your Nursery';
+
+  @override
+  String get termsOfService => 'Terms of Service';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy';
 }

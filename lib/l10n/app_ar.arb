@@ -22,5 +22,17 @@
   "onBoardingSubTitle3": "منصة مميزة مصممة للبيئة التعليمية الحديثة.",
 
   "next": "التالي",
-  "getStarted": "ابدأ"
+  "getStarted": "ابدأ",
+
+
+  "loginSubtitle": "اعتنِ بطفلك من أي مكان",
+  "phoneNumberTextFieldTitle": "رقم الهاتف",
+  "phonenumberTextFieldHint": "+20 10 0000 0000",
+  "passwordTextFieldTitle": "كلمة المرور",
+  "passwordTextFieldHint": "أدخل كلمة المرور",
+  "loginButtonTitle": "تسجيل الدخول",
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "contactYourNursery": "تواصل مع الحضانة",
+  "termsOfService": "شروط الاستخدام",
+  "privacyPolicy": "سياسة الخصوصية"
 }

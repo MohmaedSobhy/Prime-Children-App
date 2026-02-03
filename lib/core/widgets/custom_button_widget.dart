@@ -9,21 +9,27 @@ class CustomButtonWidget extends StatelessWidget {
     this.height,
     this.width,
     this.onPressed,
+    this.color,
+    this.textStyle,
   });
   final String text;
   final double? height, width;
   final void Function()? onPressed;
+  final Color? color;
+  final TextStyle? textStyle;
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      color: AppColors.primaryColor,
+      color: color ?? AppColors.primaryColor,
       height: height,
       minWidth: width,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       onPressed: onPressed,
       child: Text(
         text,
-        style: AppTextStyles.lexendBold40(context: context, fontSize: 18),
+        style:
+            textStyle ??
+            AppTextStyles.lexendBold40(context: context, fontSize: 18),
       ),
     );
   }
