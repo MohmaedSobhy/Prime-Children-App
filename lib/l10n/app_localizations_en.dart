@@ -9,38 +9,65 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appName => 'Prime Core';
+  String get serverFailureDefault => 'An unexpected error occurred.';
 
   @override
-  String get welcome => 'Welcome to Prime Core';
+  String get serverFailureTimeout => 'Connection timed out.';
 
   @override
-  String get login => 'Login';
+  String get serverFailureSendTimeout => 'Send timeout.';
 
   @override
-  String get logout => 'Logout';
+  String get serverFailureReceiveTimeout => 'Receive timeout.';
 
   @override
-  String get phone => 'Phone Number';
+  String get serverFailureCancel => 'Request cancelled.';
 
   @override
-  String get enterPhone => 'Enter your phone number';
+  String get serverFailureNoInternet => 'No internet connection.';
 
   @override
-  String get password => 'Password';
+  String get serverFailureInternalServer => 'Internal server error.';
 
   @override
-  String get enterPassword => 'Enter your password';
+  String get serverFailureBadGateway => 'Bad gateway.';
 
   @override
-  String get home => 'Home';
+  String get appTitle => 'Prime Children App';
 
   @override
-  String get settings => 'Settings';
+  String get splashTitle => 'Prime';
 
   @override
-  String get profile => 'Profile';
+  String get splashSubTitle => 'Smart Care';
 
   @override
-  String get language => 'Language';
+  String get version => 'V1.0.0';
+
+  @override
+  String get onBoardingTitle1 => 'Empower Your Nursery';
+
+  @override
+  String get onBoardingSubTitle1 =>
+      'Streamline management and enhance child development with our professional tools.';
+
+  @override
+  String get onBoardingTitle2 => 'Build Lasting Trust';
+
+  @override
+  String get onBoardingSubTitle2 =>
+      'Keep parents connected with real-time updates on meals, naps, and activities.';
+
+  @override
+  String get onBoardingTitle3 => 'Care for your child Anywhere';
+
+  @override
+  String get onBoardingSubTitle3 =>
+      'A premium platform designed for the modern educational environment.';
+
+  @override
+  String get next => 'Next';
+
+  @override
+  String get getStarted => 'Get Started';
 }

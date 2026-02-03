@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prime_app/core/routes/app_route.dart';
 import 'package:prime_app/core/theme/app_theme.dart';
 import 'package:prime_app/l10n/app_localizations.dart';
 
@@ -8,13 +9,14 @@ class PrimeChildrenApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Prime Children App',
+      debugShowCheckedModeBanner: false,
+      // title: AppString.of(context).appTitle,
       theme: AppTheme.lightTheme,
-      locale: Locale('ar'),
+      locale: const Locale('en'),
+      supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
-      home: const Scaffold(
-        body: Center(child: Text('Welcome to the Prime Children App!')),
-      ),
+      initialRoute: AppRoute.splashScreen,
+      onGenerateRoute: AppRoute.onGenerateRoute,
     );
   }
 }

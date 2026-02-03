@@ -9,38 +9,65 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appName => 'برايم كور';
+  String get serverFailureDefault => 'حدث خطأ غير متوقع.';
 
   @override
-  String get welcome => 'مرحبًا بك في برايم كور';
+  String get serverFailureTimeout => 'انتهت مهلة الاتصال.';
 
   @override
-  String get login => 'تسجيل الدخول';
+  String get serverFailureSendTimeout => 'انتهت مهلة الإرسال.';
 
   @override
-  String get logout => 'تسجيل الخروج';
+  String get serverFailureReceiveTimeout => 'انتهت مهلة الاستقبال.';
 
   @override
-  String get phone => 'رقم الهاتف';
+  String get serverFailureCancel => 'تم إلغاء الطلب.';
 
   @override
-  String get enterPhone => 'أدخل رقم الهاتف';
+  String get serverFailureNoInternet => 'لا يوجد اتصال بالإنترنت.';
 
   @override
-  String get password => 'كلمة المرور';
+  String get serverFailureInternalServer => 'خطأ في الخادم الداخلي.';
 
   @override
-  String get enterPassword => 'أدخل كلمة المرور';
+  String get serverFailureBadGateway => 'بوابة غير صالحة.';
 
   @override
-  String get home => 'الرئيسية';
+  String get appTitle => 'تطبيق برايم للأطفال';
 
   @override
-  String get settings => 'الإعدادات';
+  String get splashTitle => 'برايم';
 
   @override
-  String get profile => 'الملف الشخصي';
+  String get splashSubTitle => 'رعاية ذكية';
 
   @override
-  String get language => 'اللغة';
+  String get version => 'V1.0.0';
+
+  @override
+  String get onBoardingTitle1 => 'طوّر حضانتك';
+
+  @override
+  String get onBoardingSubTitle1 =>
+      'نظّم الإدارة وحسّن نمو الأطفال باستخدام أدوات احترافية.';
+
+  @override
+  String get onBoardingTitle2 => 'ابنِ ثقة مستمرة';
+
+  @override
+  String get onBoardingSubTitle2 =>
+      'ابقِ أولياء الأمور على اطلاع دائم بالوجبات والنوم والأنشطة.';
+
+  @override
+  String get onBoardingTitle3 => 'اعتنِ بطفلك من أي مكان';
+
+  @override
+  String get onBoardingSubTitle3 =>
+      'منصة مميزة مصممة للبيئة التعليمية الحديثة.';
+
+  @override
+  String get next => 'التالي';
+
+  @override
+  String get getStarted => 'ابدأ';
 }
