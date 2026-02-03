@@ -4,6 +4,10 @@ abstract class AppColors {
   static const Color primaryColor = Color(0xFF1834D5);
   static const Color splashSecondryColor = Color(0xFF793AEC);
   static const Color onBoardingDescriptionColor = Color(0xff616889);
+  static const Color loginTitleColor = Color(0xff111218);
+  static const Color loginSubtitleColor = Color(0xff616889);
+  static const Color textFieldBorderColor = Color(0xffDBDDE6);
+  static const Color textFieldHintTextColor = Color(0xff88888B);
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);

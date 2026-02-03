@@ -23,13 +23,13 @@ class AppString {
   String get serverFailureNoInternet => _l10n.serverFailureNoInternet;
   String get serverFailureInternalServer => _l10n.serverFailureInternalServer;
   String get serverFailureBadGateway => _l10n.serverFailureBadGateway;
-
+  // splash screen
   String get appTitle => _l10n.appTitle;
 
   String get splashTitle => _l10n.splashTitle;
   String get splashSubTitle => _l10n.splashSubTitle;
   String get version => _l10n.version;
-
+  //on Boarding Screen
   String get onBoardingTitle1 => _l10n.onBoardingTitle1;
   String get onBoardingSubTitle1 => _l10n.onBoardingSubTitle1;
   String get onBoardingTitle2 => _l10n.onBoardingTitle2;
@@ -39,4 +39,15 @@ class AppString {
 
   String get next => _l10n.next;
   String get getStarted => _l10n.getStarted;
+  //login screen
+  String loginSubtitle = 'Care for your child. Anywhere.';
+  String phoneNumberTextFieldTitle = 'Phone Number';
+  String phonenumberTextFieldHint = '+20 10 0000 0000';
+  String passwordTextFieldTitle = 'Password';
+  String passwordTextFieldHint = 'Enter Your Password';
+  String loginButtonTitle = 'Login';
+  String dontHaveAccount = 'Don\'t have an account?';
+  String contactYourNursery = 'Contact Your Nursery';
+  String termsOfService = 'Terms of Service';
+  String privacyPolicy = 'Privacy Policy';
 }

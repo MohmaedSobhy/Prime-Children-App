@@ -6,12 +6,12 @@ class CustomButtonWidget extends StatelessWidget {
   const CustomButtonWidget({
     super.key,
     required this.text,
-    required this.height,
-    required this.width,
+    this.height,
+    this.width,
     this.onPressed,
   });
   final String text;
-  final double height, width;
+  final double? height, width;
   final void Function()? onPressed;
   @override
   Widget build(BuildContext context) {

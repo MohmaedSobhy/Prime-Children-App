@@ -14,11 +14,14 @@ class AppTextStyles {
     );
   }
 
-  static TextStyle lexendMedium16({required BuildContext context}) {
+  static TextStyle lexendMedium16({
+    required BuildContext context,
+    double fontSize = 16,
+  }) {
     return TextStyle(
       fontFamily: 'Lexend',
       fontWeight: FontWeight.w500,
-      fontSize: ResponsiveText.sp(context, 16),
+      fontSize: ResponsiveText.sp(context, fontSize),
       color: Colors.white70,
     );
   }
