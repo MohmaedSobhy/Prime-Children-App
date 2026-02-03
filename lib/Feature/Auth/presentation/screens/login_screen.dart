@@ -10,6 +10,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
+      backgroundColor: Colors.white,
       body: BlocProvider(
         create: (context) => LoginCubit(),
         child: const SafeArea(child: LoginBodyView()),
