@@ -12,7 +12,7 @@ class PrimeChildrenApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // title: AppString.of(context).appTitle,
       theme: AppTheme.lightTheme,
-      locale: const Locale('en'),
+      locale: const Locale('ar'),
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       initialRoute: AppRoute.splashScreen,

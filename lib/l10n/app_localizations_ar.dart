@@ -70,4 +70,34 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get getStarted => 'ابدأ';
+
+  @override
+  String get loginSubtitle => 'اعتنِ بطفلك من أي مكان';
+
+  @override
+  String get phoneNumberTextFieldTitle => 'رقم الهاتف';
+
+  @override
+  String get phonenumberTextFieldHint => '+20 10 0000 0000';
+
+  @override
+  String get passwordTextFieldTitle => 'كلمة المرور';
+
+  @override
+  String get passwordTextFieldHint => 'أدخل كلمة المرور';
+
+  @override
+  String get loginButtonTitle => 'تسجيل الدخول';
+
+  @override
+  String get dontHaveAccount => 'ليس لديك حساب؟';
+
+  @override
+  String get contactYourNursery => 'تواصل مع الحضانة';
+
+  @override
+  String get termsOfService => 'شروط الاستخدام';
+
+  @override
+  String get privacyPolicy => 'سياسة الخصوصية';
 }

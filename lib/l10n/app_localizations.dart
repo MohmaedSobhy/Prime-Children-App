@@ -217,6 +217,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get getStarted;
+
+  /// No description provided for @loginSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Care for your child. Anywhere.'**
+  String get loginSubtitle;
+
+  /// No description provided for @phoneNumberTextFieldTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Number'**
+  String get phoneNumberTextFieldTitle;
+
+  /// No description provided for @phonenumberTextFieldHint.
+  ///
+  /// In en, this message translates to:
+  /// **'+20 10 0000 0000'**
+  String get phonenumberTextFieldHint;
+
+  /// No description provided for @passwordTextFieldTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get passwordTextFieldTitle;
+
+  /// No description provided for @passwordTextFieldHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter Your Password'**
+  String get passwordTextFieldHint;
+
+  /// No description provided for @loginButtonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get loginButtonTitle;
+
+  /// No description provided for @dontHaveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get dontHaveAccount;
+
+  /// No description provided for @contactYourNursery.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Your Nursery'**
+  String get contactYourNursery;
+
+  /// No description provided for @termsOfService.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Service'**
+  String get termsOfService;
+
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy;
 }
 
 class _AppLocalizationsDelegate

@@ -23,13 +23,13 @@ class AppString {
   String get serverFailureNoInternet => _l10n.serverFailureNoInternet;
   String get serverFailureInternalServer => _l10n.serverFailureInternalServer;
   String get serverFailureBadGateway => _l10n.serverFailureBadGateway;
-
+  // splash screen
   String get appTitle => _l10n.appTitle;
 
   String get splashTitle => _l10n.splashTitle;
   String get splashSubTitle => _l10n.splashSubTitle;
   String get version => _l10n.version;
-
+  //on Boarding Screen
   String get onBoardingTitle1 => _l10n.onBoardingTitle1;
   String get onBoardingSubTitle1 => _l10n.onBoardingSubTitle1;
   String get onBoardingTitle2 => _l10n.onBoardingTitle2;
@@ -39,4 +39,15 @@ class AppString {
 
   String get next => _l10n.next;
   String get getStarted => _l10n.getStarted;
+  //login screen
+  String get loginSubtitle => _l10n.loginSubtitle;
+  String get phoneNumberTextFieldTitle => _l10n.phoneNumberTextFieldTitle;
+  String get phonenumberTextFieldHint => _l10n.phonenumberTextFieldHint;
+  String get passwordTextFieldTitle => _l10n.passwordTextFieldTitle;
+  String get passwordTextFieldHint => _l10n.passwordTextFieldHint;
+  String get loginButtonTitle => _l10n.loginButtonTitle;
+  String get dontHaveAccount => _l10n.dontHaveAccount;
+  String get contactYourNursery => _l10n.contactYourNursery;
+  String get termsOfService => _l10n.termsOfService;
+  String get privacyPolicy => _l10n.privacyPolicy;
 }

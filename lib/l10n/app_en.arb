@@ -22,5 +22,16 @@
   "onBoardingSubTitle3": "A premium platform designed for the modern educational environment.",
 
   "next": "Next",
-  "getStarted": "Get Started"
+  "getStarted": "Get Started",
+
+  "loginSubtitle": "Care for your child. Anywhere.",
+  "phoneNumberTextFieldTitle": "Phone Number",
+  "phonenumberTextFieldHint": "+20 10 0000 0000",
+  "passwordTextFieldTitle": "Password",
+  "passwordTextFieldHint": "Enter Your Password",
+  "loginButtonTitle": "Login",
+  "dontHaveAccount": "Don't have an account?",
+  "contactYourNursery": "Contact Your Nursery",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy"
 }
