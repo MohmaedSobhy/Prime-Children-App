@@ -50,4 +50,11 @@ class AppString {
   String get contactYourNursery => _l10n.contactYourNursery;
   String get termsOfService => _l10n.termsOfService;
   String get privacyPolicy => _l10n.privacyPolicy;
+
+  //owner screen
+  static String dashboard = 'Dashboard';
+  static String profile = 'Profile';
+  static String alerts = 'Alerts';
+  static String messages = 'Messages';
+  static String nurseries = 'Nurseries';
 }

@@ -8,6 +8,9 @@ abstract class AppColors {
   static const Color loginSubtitleColor = Color(0xff616889);
   static const Color textFieldBorderColor = Color(0xffDBDDE6);
   static const Color textFieldHintTextColor = Color(0xff88888B);
+
+  //owner view
+  static const Color unselectedItemColor = Color(0xff94A3B8);
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);
