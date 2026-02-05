@@ -10,6 +10,7 @@ import 'package:prime_app/Feature/Auth/presentation/widgets/login_password_text_
 import 'package:prime_app/Feature/Auth/presentation/widgets/login_phone_text_field.dart';
 import 'package:prime_app/Feature/Auth/presentation/widgets/login_subtitle_widget.dart';
 import 'package:prime_app/Feature/Auth/presentation/widgets/login_title_widget.dart';
+import 'package:prime_app/core/routes/app_route.dart';
 import 'package:prime_app/core/widgets/error_pop_up.dart';
 
 class LoginViewMainBody extends StatelessWidget {
@@ -22,6 +23,8 @@ class LoginViewMainBody extends StatelessWidget {
         if (state is LoginErrorState) {
           ErrorPopup.show(context, message: state.error);
           log('Error: ${state.error}');
+        } else if (state is LoginSuccessState) {
+          Navigator.pushReplacementNamed(context, AppRoute.homeScreen);
         }
       },
       builder: (context, state) {

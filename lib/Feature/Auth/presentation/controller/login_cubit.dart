@@ -19,7 +19,7 @@ class LoginCubit extends Cubit<LoginStates> {
   void login() {
     // TODO: implement login
     if (formKey.currentState!.validate()) {
-      emit(LoginErrorState("Did not implement yet You idiot"));
+      emit(LoginSuccessState());
     }
   }
 
