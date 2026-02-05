@@ -9,8 +9,16 @@ abstract class AppColors {
   static const Color textFieldBorderColor = Color(0xffDBDDE6);
   static const Color textFieldHintTextColor = Color(0xff88888B);
 
-  //owner view
+  //home layout
   static const Color unselectedItemColor = Color(0xff94A3B8);
+  //owner
+  static const Color settingIconColor = Color(0xff9CA3AF);
+  static const Color dashboardSubTitleColor = Color(0xff616889);
+  static const Color dashboardTitleColor = Color(0xff111218);
+  static const Color nutritionContainerTitleColor = Color(0xffDBEAFE);
+  static const Color nutritionContainerIconBackgroundColor = Color(0xff637CF0);
+  static const Color dashboardGlobalAlertsTitleColor = Color(0xff111827);
+
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);

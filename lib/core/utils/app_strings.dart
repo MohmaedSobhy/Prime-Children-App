@@ -57,4 +57,9 @@ class AppString {
   static String alerts = 'Alerts';
   static String messages = 'Messages';
   static String nurseries = 'Nurseries';
+
+  // owner dashboard
+  static String welcomeBack = 'Welcome back, Sarah!';
+  static String globalDashboard = 'Global Dashboard';
+  static String overviewOfNursery = 'Overview of your nursery network';
 }

@@ -37,4 +37,28 @@ class AppTextStyles {
       color: Colors.white60,
     );
   }
+
+  static TextStyle lexendSemiBold12({
+    required BuildContext context,
+    double fontSize = 12,
+  }) {
+    return TextStyle(
+      fontFamily: 'Lexend',
+      fontWeight: FontWeight.w600,
+      fontSize: ResponsiveText.sp(context, fontSize),
+      color: Colors.white60,
+    );
+  }
+
+  static TextStyle lexendLight12({
+    required BuildContext context,
+    double fontSize = 12,
+  }) {
+    return TextStyle(
+      fontFamily: 'Lexend',
+      fontWeight: FontWeight.w300,
+      fontSize: ResponsiveText.sp(context, fontSize),
+      color: Colors.white60,
+    );
+  }
 }

@@ -11,7 +11,15 @@ class OwnerViewLayoutBody extends StatelessWidget {
     final cubit = OwnerViewLayoutCubit.get(context);
     return BlocBuilder<OwnerViewLayoutCubit, OwnerViewLayoutStates>(
       builder: (context, state) {
-        return cubit.ownerScreens[cubit.currIndex];
+        return SafeArea(
+          child: Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: MediaQuery.sizeOf(context).width * 0.05,
+              vertical: MediaQuery.sizeOf(context).height * 0.025,
+            ),
+            child: cubit.ownerScreens[cubit.currIndex],
+          ),
+        );
       },
     );
   }
