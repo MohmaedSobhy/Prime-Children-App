@@ -18,6 +18,7 @@ abstract class AppColors {
   static const Color nutritionContainerTitleColor = Color(0xffDBEAFE);
   static const Color nutritionContainerIconBackgroundColor = Color(0xff637CF0);
   static const Color dashboardGlobalAlertsTitleColor = Color(0xff111827);
+  static const Color dashboardGlobalAlertsSubTitleColor = Color(0xff6B7280);
 
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);

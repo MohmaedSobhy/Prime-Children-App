@@ -62,4 +62,7 @@ class AppString {
   static String welcomeBack = 'Welcome back, Sarah!';
   static String globalDashboard = 'Global Dashboard';
   static String overviewOfNursery = 'Overview of your nursery network';
+  static String globalAlerts = 'Global Alerts';
+  static String seeAll = 'See All';
+  static String recentPayments = 'Recent Payments';
 }
