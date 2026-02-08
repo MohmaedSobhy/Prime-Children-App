@@ -44,7 +44,7 @@ class CustomOwnerBottomNavigationBar extends StatelessWidget {
             ),
             BottomNavigationBarItem(
               icon: const Icon(Icons.notifications),
-              label: AppString.alerts,
+              label: AppString.notifications,
             ),
             BottomNavigationBarItem(
               icon: const Icon(Icons.person),

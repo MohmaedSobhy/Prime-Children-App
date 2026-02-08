@@ -54,7 +54,7 @@ class AppString {
   //owner screen
   static String dashboard = 'Dashboard';
   static String profile = 'Profile';
-  static String alerts = 'Alerts';
+  static String notifications = 'Notifications';
   static String messages = 'Messages';
   static String nurseries = 'Nurseries';
 
@@ -65,4 +65,9 @@ class AppString {
   static String globalAlerts = 'Global Alerts';
   static String seeAll = 'See All';
   static String recentPayments = 'Recent Payments';
+
+  // owner notification view
+  static String markAllAsRead = 'Mark all as read';
+  static String system = 'System';
+  static String items = 'Items';
 }
