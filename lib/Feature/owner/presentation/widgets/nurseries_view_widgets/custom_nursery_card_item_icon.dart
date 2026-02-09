@@ -13,8 +13,8 @@ class CustomNurseryCardItemIcon extends StatelessWidget {
       clipBehavior: Clip.none,
       children: [
         Container(
-          width: 44,
-          height: 44,
+          width: MediaQuery.sizeOf(context).width * 0.12,
+          height: MediaQuery.sizeOf(context).width * 0.12,
           decoration: BoxDecoration(
             color: item.avatarBackground,
             borderRadius: BorderRadius.circular(12),
@@ -22,7 +22,7 @@ class CustomNurseryCardItemIcon extends StatelessWidget {
           child: Icon(
             item.avatarIcon,
             color: AppColors.dashboardSubTitleColor,
-            size: 22,
+            size: MediaQuery.sizeOf(context).width * 0.07,
           ),
         ),
         if (item.showOnlineDot)
@@ -30,8 +30,8 @@ class CustomNurseryCardItemIcon extends StatelessWidget {
             right: -2,
             bottom: -2,
             child: Container(
-              width: 10,
-              height: 10,
+              width: MediaQuery.sizeOf(context).width * 0.03,
+              height: MediaQuery.sizeOf(context).width * 0.03,
               decoration: BoxDecoration(
                 color: const Color(0xFF22C55E),
                 shape: BoxShape.circle,

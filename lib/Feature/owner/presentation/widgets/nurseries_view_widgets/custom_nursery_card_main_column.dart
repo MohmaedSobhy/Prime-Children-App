@@ -22,9 +22,12 @@ class CustomNurseryCardMainColumn extends StatelessWidget {
             fontSize: 14,
           ).copyWith(color: AppColors.dashboardTitleColor),
         ),
-        const SizedBox(height: 6),
+        SizedBox(height: MediaQuery.sizeOf(context).height * 0.01),
         Container(
-          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+          padding: EdgeInsets.symmetric(
+            horizontal: MediaQuery.sizeOf(context).width * 0.02,
+            vertical: MediaQuery.sizeOf(context).height * 0.005,
+          ),
           decoration: BoxDecoration(
             color: item.statusColor.withValues(alpha: 0.12),
             borderRadius: BorderRadius.circular(6),
@@ -37,7 +40,7 @@ class CustomNurseryCardMainColumn extends StatelessWidget {
             ).copyWith(color: item.statusColor),
           ),
         ),
-        const SizedBox(height: 6),
+        SizedBox(height: MediaQuery.sizeOf(context).height * 0.01),
         Text(
           item.address,
           maxLines: 1,
