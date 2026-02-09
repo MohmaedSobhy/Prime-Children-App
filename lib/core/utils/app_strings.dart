@@ -70,4 +70,8 @@ class AppString {
   static String markAllAsRead = 'Mark all as read';
   static String system = 'System';
   static String items = 'Items';
+
+  // owner nursery view
+  static String myNurseries = 'My Nurseries';
+  static String selectALocationToManage = 'Select a location to manage';
 }
