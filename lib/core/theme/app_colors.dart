@@ -19,7 +19,8 @@ abstract class AppColors {
   static const Color nutritionContainerIconBackgroundColor = Color(0xff637CF0);
   static const Color dashboardGlobalAlertsTitleColor = Color(0xff111827);
   static const Color dashboardGlobalAlertsSubTitleColor = Color(0xff6B7280);
-
+  static const Color searchFieldColor = Color(0xffF0F1F4);
+  static const Color onlineGreen = Color(0xFF22C55E);
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);

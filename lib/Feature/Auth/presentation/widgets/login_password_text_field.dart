@@ -9,7 +9,7 @@ class LoginPasswordTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     LoginCubit cubit = LoginCubit.get(context);
-    return CustomTextFormField(
+    return CustomTextFormFieldWithTitle(
       controller: cubit.passwordController,
       validator: passwordValidator,
       title: AppString.of(context).passwordTextFieldTitle,

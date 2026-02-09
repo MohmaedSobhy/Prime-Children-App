@@ -74,4 +74,8 @@ class AppString {
   // owner nursery view
   static String myNurseries = 'My Nurseries';
   static String selectALocationToManage = 'Select a location to manage';
+
+  // owner messages view
+  static String search = 'Search';
+  static String searchConversations = 'Search conversations...';
 }
