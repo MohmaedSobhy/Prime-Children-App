@@ -15,6 +15,7 @@ class CustomOwnerBottomNavigationBar extends StatelessWidget {
     return BlocBuilder<OwnerViewLayoutCubit, OwnerViewLayoutStates>(
       builder: (context, state) {
         return BottomNavigationBar(
+          backgroundColor: Colors.white,
           currentIndex: cubit.currIndex,
           onTap: (value) => cubit.changeIndex(value),
           selectedItemColor: AppColors.primaryColor,

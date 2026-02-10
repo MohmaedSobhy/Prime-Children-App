@@ -78,4 +78,17 @@ class AppString {
   // owner messages view
   static String search = 'Search';
   static String searchConversations = 'Search conversations...';
+
+  // owner profile view
+  static String profileSettings = 'Profile Settings';
+  static String signOut = 'Sign Out';
+  static String personalInformation = 'Personal Information';
+  static String email = 'Email';
+  static String phoneNumber = 'Phone Number';
+  static String notificationPreferences = 'Notification Preferences';
+  static String pushNotifications = 'Push Notifications';
+  static String weeklySummary = 'Weekly Summary';
+  static String security = 'Security';
+  static String changePassword = 'Change Password';
+  static String faceIdSlashBiomerics = 'Face ID / Biometrics';
 }
