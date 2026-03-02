@@ -91,4 +91,8 @@ class AppString {
   static String security = 'Security';
   static String changePassword = 'Change Password';
   static String faceIdSlashBiomerics = 'Face ID / Biometrics';
+  static String activityOverview = 'Activity Overview';
+  static String viewAll = 'View All';
+  static String sharedGalary = 'Shared Gallery';
+  static String todaysMenu = 'Today\'s Menu';
 }
