@@ -100,4 +100,17 @@ class AppString {
   static String busTracking = 'Bus Tracking';
   static String liveUpdates = 'LIVE UPDATES';
   static String call = 'Call';
+
+  // financial gateway view
+  static const String refinedFinancialGateway = "REFINED FINANCIAL GATEWAY";
+
+  static const String availableBalance = "AVAILABLE BALANCE";
+  static const String accountNumber = "ACCOUNT NUMBER";
+
+  static const String requestTuition = "Request Tuition";
+  static const String paySalaries = "Pay Salaries";
+  static const String addFund = "Add Fund";
+
+  static const String received = "Received";
+  static const String sent = "Sent";
 }

@@ -1,6 +1,7 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:prime_app/Feature/owner/data/models/nursery_details_models.dart';
 import 'package:prime_app/Feature/owner/presentation/widgets/nursery_details_view_widgets/custom_nursery_details_stat_card.dart';
+import 'package:prime_app/core/routes/app_route.dart';
 
 class CustomNurseryDetailsStatsRow extends StatelessWidget {
   const CustomNurseryDetailsStatsRow({super.key, required this.cards});
@@ -11,9 +12,17 @@ class CustomNurseryDetailsStatsRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(child: CustomNurseryDetailsStatCard(card: cards[0])),
+        Expanded(
+          child: CustomNurseryDetailsStatCard(card: cards[0], onTap: () {}),
+        ),
         SizedBox(width: MediaQuery.sizeOf(context).width * 0.03),
-        Expanded(child: CustomNurseryDetailsStatCard(card: cards[1])),
+        Expanded(
+          child: CustomNurseryDetailsStatCard(
+            card: cards[1],
+            onTap: () =>
+                Navigator.pushNamed(context, AppRoute.financialGatewayView),
+          ),
+        ),
       ],
     );
   }

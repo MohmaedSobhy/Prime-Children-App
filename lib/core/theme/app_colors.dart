@@ -27,6 +27,23 @@ abstract class AppColors {
   static const Color busTrackingRouteChipColor = Color(0xffEDE9FE);
   static const Color busTrackingRouteColor = Color(0xff7C3AED);
   static const Color busTrackingOnScheduleColor = Color(0xff059669);
+
+  //financial gateway view
+  static const Color purpleGradient = Color(0xFF6C63FF);
+
+  static const Color scaffoldBackground = Color(0xFFF5F6FA);
+  static const Color cardBackground = Colors.white;
+
+  static const Color white = Colors.white;
+  static const Color white70 = Colors.white70;
+
+  static const Color grey = Color(0xFF8E8E93);
+
+  static const Color success = Color(0xFF22C55E);
+  static const Color successLight = Color(0xFFE8F9F0);
+
+  static const Color error = Color(0xFFEF4444);
+  static const Color errorLight = Color(0xFFFDECEC);
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);
