@@ -22,6 +22,11 @@ abstract class AppColors {
   static const Color searchFieldColor = Color(0xffF0F1F4);
   static const Color onlineGreen = Color(0xFF22C55E);
   static const Color nurseryDetailsSubTitleColor = Color(0xff7C3AED);
+  static const Color busTrackingBackgroundColor = Color(0xffF8F8F9);
+  static const Color busTrackingLiveUpdatesColor = Color(0xff6D28D9);
+  static const Color busTrackingRouteChipColor = Color(0xffEDE9FE);
+  static const Color busTrackingRouteColor = Color(0xff7C3AED);
+  static const Color busTrackingOnScheduleColor = Color(0xff059669);
   // static const Color primaryColor200 = Color.fromARGB(255, 255, 78, 38);
   // static const Color white = Color(0xffFFFFFF);
   // static const Color black = Color(0xff000000);

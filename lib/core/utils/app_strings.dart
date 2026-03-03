@@ -95,4 +95,9 @@ class AppString {
   static String viewAll = 'View All';
   static String sharedGalary = 'Shared Gallery';
   static String todaysMenu = 'Today\'s Menu';
+
+  // owner bus tracking view
+  static String busTracking = 'Bus Tracking';
+  static String liveUpdates = 'LIVE UPDATES';
+  static String call = 'Call';
 }
