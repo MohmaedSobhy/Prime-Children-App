@@ -18,7 +18,6 @@ class FinancialGatewayViewBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: size.height * 0.02),
           const CustomFinancialGatewayAppbar(),
           SizedBox(height: size.height * 0.03),
           const BalanceCardWidget(),

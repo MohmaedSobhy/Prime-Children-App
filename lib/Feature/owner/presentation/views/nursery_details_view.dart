@@ -8,6 +8,7 @@ class NurseryDetailsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffF6F6F9),
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(
